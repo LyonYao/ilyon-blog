@@ -1,0 +1,208 @@
+.category-manager {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.category-manager h2 {
+  color: var(--primary-accent);
+  margin-bottom: 20px;
+  text-transform: none !important;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px rgba(156, 39, 176, 0.3);
+}
+
+.category-manager h3 {
+  color: var(--primary-accent);
+  margin: 20px 0 15px;
+  text-transform: none !important;
+}
+
+.add-category-form {
+  background-color: var(--medium-bg);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.add-category-form form {
+  display: flex;
+  gap: 10px;
+}
+
+.add-category-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--dark-bg);
+  color: var(--text-primary);
+  text-transform: none;
+}
+
+.add-category-form input:focus {
+  border-color: var(--primary-accent);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(156, 39, 176, 0.25);
+}
+
+.add-category-form button {
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: none;
+}
+
+.add-category-form button:hover {
+  background-color: var(--hover-color);
+  border-color: var(--primary-accent);
+}
+
+.categories-list {
+  background-color: var(--medium-bg);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.categories-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.categories-list li {
+  margin-bottom: 10px;
+}
+
+.category-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--light-bg);
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+.category-item span {
+  color: var(--text-primary);
+  text-transform: none;
+}
+
+.category-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.category-actions button {
+  padding: 5px 10px;
+  background-color: var(--secondary-color);
+  color: var(--text-light);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: none;
+}
+
+.category-actions button:first-child {
+  background-color: var(--warning-color);
+}
+
+.category-actions button:first-child:hover {
+  background-color: #9c1050;
+  border-color: var(--warning-color);
+}
+
+.category-actions button:last-child {
+  background-color: var(--danger-color);
+}
+
+.category-actions button:last-child:hover {
+  background-color: #c62828;
+  border-color: var(--danger-color);
+}
+
+.edit-category-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: var(--light-bg);
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+.edit-category-form input {
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--dark-bg);
+  color: var(--text-primary);
+  text-transform: none;
+}
+
+.edit-category-form input:focus {
+  border-color: var(--primary-accent);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(156, 39, 176, 0.25);
+}
+
+.edit-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.edit-actions button {
+  padding: 5px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: none;
+}
+
+.edit-actions button:first-child {
+  background-color: var(--success-color);
+  color: var(--text-light);
+}
+
+.edit-actions button:first-child:hover {
+  background-color: var(--hover-color);
+  border-color: var(--primary-accent);
+}
+
+.edit-actions button:last-child {
+  background-color: var(--secondary-color);
+  color: var(--text-light);
+}
+
+.edit-actions button:last-child:hover {
+  background-color: #3949ab;
+  border-color: var(--secondary-accent);
+}
+
+.validation-error {
+  color: var(--secondary-accent);
+  font-size: 0.9rem;
+  margin-top: 5px;
+  text-transform: none;
+}
+
+.success-message {
+  padding: 10px;
+  background-color: rgba(74, 20, 140, 0.2);
+  color: var(--primary-accent);
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid var(--primary-color);
+  text-transform: none;
+}

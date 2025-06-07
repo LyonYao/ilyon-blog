@@ -1,0 +1,129 @@
+.rich-text-editor {
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: var(--dark-bg);
+}
+
+.editor-toolbar {
+  padding: 10px;
+  background-color: var(--light-bg);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.toolbar-button {
+  padding: 5px 10px;
+  background-color: var(--medium-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--text-secondary);
+  transition: all 0.3s ease;
+  text-transform: none !important;
+}
+
+.toolbar-button:hover {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border-color: var(--primary-accent);
+}
+
+.toolbar-button.active {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border-color: var(--primary-accent);
+}
+
+.toolbar-separator {
+  width: 1px;
+  height: 24px;
+  background-color: var(--border-color);
+  margin: 0 5px;
+}
+
+.editor-content {
+  padding: 15px;
+  min-height: 300px;
+  color: var(--text-primary);
+  text-transform: none !important;
+}
+
+.editor-content:focus {
+  outline: none;
+}
+
+/* Editor content styles */
+.editor-content h1,
+.editor-content h2,
+.editor-content h3,
+.editor-content h4,
+.editor-content h5,
+.editor-content h6 {
+  color: var(--primary-accent);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-transform: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+}
+
+.editor-content p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  text-transform: none !important;
+}
+
+.editor-content blockquote {
+  border-left: 3px solid var(--primary-accent);
+  margin-left: 0;
+  padding-left: 15px;
+  color: var(--text-secondary);
+  font-style: italic;
+  text-transform: none !important;
+}
+
+.editor-content pre {
+  background-color: var(--light-bg);
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid var(--border-color);
+  text-transform: none !important;
+}
+
+.editor-content code {
+  font-family: 'Courier New', Courier, monospace;
+  color: var(--secondary-accent);
+  text-transform: none !important;
+}
+
+.editor-content ul,
+.editor-content ol {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  text-transform: none !important;
+}
+
+.editor-content a {
+  color: var(--primary-accent);
+  text-decoration: none;
+  text-transform: none !important;
+}
+
+.editor-content a:hover {
+  text-decoration: underline;
+  color: var(--secondary-accent);
+}
+
+.editor-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin: 10px 0;
+  border: 1px solid var(--border-color);
+}

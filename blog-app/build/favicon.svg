@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32" height="32" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background ice throne -->
+  <polygon points="100,10 160,50 160,150 100,190 40,150 40,50" fill="#0a1a2a" stroke="#3a8bbd" stroke-width="2"/>
+  
+  <!-- Ice spikes -->
+  <polygon points="100,10 110,25 100,20 90,25" fill="#3a8bbd" stroke="#5aabdd" stroke-width="1"/>
+  <polygon points="160,50 145,55 150,45 140,40" fill="#3a8bbd" stroke="#5aabdd" stroke-width="1"/>
+  <polygon points="160,150 145,145 150,155 140,160" fill="#3a8bbd" stroke="#5aabdd" stroke-width="1"/>
+  <polygon points="100,190 110,175 100,180 90,175" fill="#3a8bbd" stroke="#5aabdd" stroke-width="1"/>
+  <polygon points="40,150 55,145 50,155 60,160" fill="#3a8bbd" stroke="#5aabdd" stroke-width="1"/>
+  <polygon points="40,50 55,55 50,45 60,40" fill="#3a8bbd" stroke="#5aabdd" stroke-width="1"/>
+  
+  <!-- Dark Ranger silhouette -->
+  <path d="M100,50 C90,60 85,70 85,90 C85,110 95,130 100,140 C105,130 115,110 115,90 C115,70 110,60 100,50 Z" fill="#1a0a1a" stroke="#5a0a2a" stroke-width="1"/>
+  
+  <!-- Bow -->
+  <path d="M70,90 C80,70 90,60 100,60 C110,60 120,70 130,90 C120,95 110,97 100,97 C90,97 80,95 70,90 Z" fill="none" stroke="#aa5a2a" stroke-width="2"/>
+  <line x1="100" y1="60" x2="100" y2="97" stroke="#aa5a2a" stroke-width="2"/>
+  
+  <!-- Glowing eyes -->
+  <circle cx="95" cy="75" r="2" fill="#ff3a5a"/>
+  <circle cx="105" cy="75" r="2" fill="#ff3a5a"/>
+  
+  <!-- Ice energy -->
+  <circle cx="100" cy="100" r="25" fill="none" stroke="#5aabdd" stroke-width="1" opacity="0.5"/>
+  <circle cx="100" cy="100" r="35" fill="none" stroke="#3a8bbd" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Arrow -->
+  <line x1="100" y1="97" x2="100" y2="130" stroke="#aa5a2a" stroke-width="1"/>
+  <polygon points="100,130 97,125 100,140 103,125" fill="#5a0a2a" stroke="#5a0a2a" stroke-width="1"/>
+</svg>

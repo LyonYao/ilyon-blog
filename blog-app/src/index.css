@@ -1,0 +1,78 @@
+/* Base CSS Variables */
+:root {
+  /* Default theme variables will be overridden by theme-specific ones */
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark Ranger Theme - Inspired by Warcraft III: The Frozen Throne */
+:root[data-theme="darkRanger"] {
+  --primary-color: #6a1b9a;       /* Deep purple */
+  --secondary-color: #283593;     /* Dark blue */
+  --success-color: #4a148c;       /* Royal purple */
+  --danger-color: #b71c1c;        /* Blood red */
+  --warning-color: #880e4f;       /* Dark magenta */
+  --info-color: #4a148c;          /* Deep purple */
+  --light-color: #e1bee7;         /* Light lavender */
+  --dark-color: #1a1a2e;          /* Near black with blue tint */
+  
+  --primary-accent: #9c27b0;      /* Bright purple */
+  --secondary-accent: #d32f2f;    /* Crimson */
+  
+  --dark-bg: #0d0d1a;             /* Very dark blue-black */
+  --medium-bg: #1a1a2e;           /* Dark blue-purple */
+  --light-bg: #2c2c54;            /* Muted purple */
+  
+  --text-primary: #e1bee7;        /* Light lavender */
+  --text-secondary: #b39ddb;      /* Muted lavender */
+  --text-light: #f3e5f5;          /* Very light lavender */
+  
+  --border-color: #4a148c;        /* Deep purple for borders */
+  --shadow-color: rgba(0, 0, 0, 0.5); /* Dark shadow */
+  --hover-color: #7b1fa2;         /* Medium purple for hover states */
+}
+
+/* Frozen Throne Theme - Inspired by the blue character from Warcraft III */
+:root[data-theme="frozenThrone"] {
+  --primary-color: #0d47a1;       /* Deep blue */
+  --secondary-color: #1565c0;     /* Medium blue */
+  --success-color: #01579b;       /* Dark blue */
+  --danger-color: #b71c1c;        /* Blood red - keeping for error states */
+  --warning-color: #0277bd;       /* Blue-teal */
+  --info-color: #0288d1;          /* Light blue */
+  --light-color: #bbdefb;         /* Light blue */
+  --dark-color: #102027;          /* Near black with blue tint */
+  
+  --primary-accent: #2196f3;      /* Bright blue */
+  --secondary-accent: #00b0ff;    /* Cyan blue */
+  
+  --dark-bg: #0a1929;             /* Very dark blue */
+  --medium-bg: #102a43;           /* Dark blue */
+  --light-bg: #1e4976;            /* Medium blue */
+  
+  --text-primary: #e3f2fd;        /* Light blue */
+  --text-secondary: #bbdefb;      /* Muted light blue */
+  --text-light: #f5f5f5;          /* Off-white */
+  
+  --border-color: #0d47a1;        /* Deep blue for borders */
+  --shadow-color: rgba(0, 0, 30, 0.5); /* Dark blue shadow */
+  --hover-color: #1976d2;         /* Medium blue for hover states */
+}
+
+/* Apply theme to body */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-bg);
+  color: var(--text-primary);
+  background-image: linear-gradient(to bottom, var(--dark-bg), var(--medium-bg));
+  min-height: 100vh;
+  text-transform: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

@@ -1,0 +1,113 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.auth-form-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: var(--medium-bg);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  padding: 30px;
+  border: 1px solid var(--border-color);
+}
+
+.auth-form-container h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  color: var(--primary-accent);
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px rgba(156, 39, 176, 0.3);
+  text-transform: none !important;
+}
+
+.auth-error {
+  background-color: rgba(183, 28, 28, 0.2);
+  color: var(--secondary-accent);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid var(--danger-color);
+  text-transform: none;
+}
+
+.auth-form {
+  margin-bottom: 20px;
+}
+
+.auth-form .form-group {
+  margin-bottom: 15px;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--text-light);
+  text-transform: none;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--dark-bg);
+  color: var(--text-primary);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: none;
+}
+
+.auth-form input:focus {
+  border-color: var(--primary-accent);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(156, 39, 176, 0.25);
+}
+
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border: 1px solid var(--border-color);
+  margin-top: 10px;
+  text-transform: none;
+}
+
+.auth-button:hover {
+  background-color: var(--hover-color);
+  border-color: var(--primary-accent);
+}
+
+.auth-button:disabled {
+  background-color: var(--light-bg);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.auth-links {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--text-secondary);
+}
+
+.auth-links a {
+  color: var(--primary-accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-transform: none;
+}
+
+.auth-links a:hover {
+  color: var(--secondary-accent);
+  text-decoration: underline;
+}

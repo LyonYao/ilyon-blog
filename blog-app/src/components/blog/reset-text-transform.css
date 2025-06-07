@@ -1,0 +1,39 @@
+/* Reset text-transform for all elements */
+* {
+  text-transform: none !important;
+}
+
+/* Specific overrides for headings */
+h1, h2, h3, h4, h5, h6 {
+  text-transform: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+}
+
+/* Form elements */
+input, button, select, textarea {
+  text-transform: none !important;
+}
+
+/* Links and text elements */
+a, p, span, div, li {
+  text-transform: none !important;
+}
+
+/* Table elements */
+th, td {
+  text-transform: none !important;
+}
+
+/* Custom classes */
+.blog-header h1,
+.blog-header h2,
+.blog-header h3,
+.category-manager h2,
+.category-manager h3,
+.dashboard-header h1,
+.post-item-title,
+.post-content h1 {
+  text-transform: none !important;
+}
