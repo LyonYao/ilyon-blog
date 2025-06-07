@@ -1,0 +1,164 @@
+{
+  "startTime": "2025-06-03T15:20:39.145Z",
+  "endTime": "2025-06-03T15:21:12.008Z",
+  "tests": [
+    {
+      "name": "访问博客首页",
+      "status": "passed",
+      "timestamp": "2025-06-03T15:20:41.443Z",
+      "error": null
+    },
+    {
+      "name": "用户登录",
+      "status": "passed",
+      "timestamp": "2025-06-03T15:20:43.406Z",
+      "error": null
+    },
+    {
+      "name": "浏览博客文章",
+      "status": "passed",
+      "timestamp": "2025-06-03T15:20:44.233Z",
+      "error": null
+    },
+    {
+      "name": "筛选文章",
+      "status": "passed",
+      "timestamp": "2025-06-03T15:20:45.566Z",
+      "error": null
+    },
+    {
+      "name": "查看文章详情",
+      "status": "passed",
+      "timestamp": "2025-06-03T15:20:46.423Z",
+      "error": null
+    },
+    {
+      "name": "创建新文章",
+      "status": "passed",
+      "timestamp": "2025-06-03T15:21:00.172Z"
+    },
+    {
+      "name": "编辑文章",
+      "status": "failed",
+      "timestamp": "2025-06-03T15:21:02.048Z",
+      "error": "Cannot set properties of null (setting 'innerHTML')"
+    },
+    {
+      "name": "删除文章",
+      "status": "failed",
+      "timestamp": "2025-06-03T15:21:03.885Z",
+      "error": "Cannot set properties of null (setting 'innerHTML')"
+    },
+    {
+      "name": "用户登出",
+      "status": "passed",
+      "timestamp": "2025-06-03T15:21:12.007Z",
+      "error": null
+    }
+  ],
+  "passed": 7,
+  "failed": 2,
+  "screenshots": [
+    {
+      "name": "首页加载成功",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964041220-首页加载成功.png",
+      "timestamp": "2025-06-03T15:20:41.443Z"
+    },
+    {
+      "name": "登录页面",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964042070-登录页面.png",
+      "timestamp": "2025-06-03T15:20:42.173Z"
+    },
+    {
+      "name": "填写登录表单",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964042278-填写登录表单.png",
+      "timestamp": "2025-06-03T15:20:42.425Z"
+    },
+    {
+      "name": "登录后页面状态",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964043072-登录后页面状态.png",
+      "timestamp": "2025-06-03T15:20:43.312Z"
+    },
+    {
+      "name": "登录成功-仪表盘",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964043314-登录成功-仪表盘.png",
+      "timestamp": "2025-06-03T15:20:43.406Z"
+    },
+    {
+      "name": "浏览博客文章",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964044079-浏览博客文章.png",
+      "timestamp": "2025-06-03T15:20:44.233Z"
+    },
+    {
+      "name": "筛选前状态",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964044847-筛选前状态.png",
+      "timestamp": "2025-06-03T15:20:44.998Z"
+    },
+    {
+      "name": "按分类筛选文章",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964045008-按分类筛选文章.png",
+      "timestamp": "2025-06-03T15:20:45.128Z"
+    },
+    {
+      "name": "清除筛选",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964045154-清除筛选.png",
+      "timestamp": "2025-06-03T15:20:45.326Z"
+    },
+    {
+      "name": "按标签筛选文章",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964045403-按标签筛选文章.png",
+      "timestamp": "2025-06-03T15:20:45.566Z"
+    },
+    {
+      "name": "文章详情页",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964046293-文章详情页.png",
+      "timestamp": "2025-06-03T15:20:46.423Z"
+    },
+    {
+      "name": "仪表盘页面",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964047583-仪表盘页面.png",
+      "timestamp": "2025-06-03T15:20:47.688Z"
+    },
+    {
+      "name": "创建文章页面",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964049722-创建文章页面.png",
+      "timestamp": "2025-06-03T15:20:49.843Z"
+    },
+    {
+      "name": "填写新文章表单",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964050951-填写新文章表单.png",
+      "timestamp": "2025-06-03T15:20:51.087Z"
+    },
+    {
+      "name": "提交表单后页面",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964059109-提交表单后页面.png",
+      "timestamp": "2025-06-03T15:20:59.257Z"
+    },
+    {
+      "name": "准备编辑文章-仪表盘",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964060809-准备编辑文章-仪表盘.png",
+      "timestamp": "2025-06-03T15:21:00.900Z"
+    },
+    {
+      "name": "编辑文章失败",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964061920-编辑文章失败.png",
+      "timestamp": "2025-06-03T15:21:02.048Z"
+    },
+    {
+      "name": "准备删除文章-仪表盘",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964062698-准备删除文章-仪表盘.png",
+      "timestamp": "2025-06-03T15:21:02.789Z"
+    },
+    {
+      "name": "删除文章失败",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964063746-删除文章失败.png",
+      "timestamp": "2025-06-03T15:21:03.885Z"
+    },
+    {
+      "name": "登出后页面",
+      "path": "D:\\lyon_study\\amazonQ_test\\test-screenshots\\1748964071825-登出后页面.png",
+      "timestamp": "2025-06-03T15:21:12.006Z"
+    }
+  ],
+  "duration": 32.863
+}

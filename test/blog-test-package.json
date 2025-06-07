@@ -1,0 +1,19 @@
+{
+  "name": "blog-test",
+  "version": "1.0.0",
+  "description": "博客应用自动化测试项目",
+  "main": "blog-test.js",
+  "scripts": {
+    "test": "node blog-test.js",
+    "test:headless": "cross-env HEADLESS=true node blog-test.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.7.3",
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.1.1",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
