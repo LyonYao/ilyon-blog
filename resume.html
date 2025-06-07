@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>姚伟男 - 个人简历</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #0078d7;
+            padding-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 28px;
+            color: #0078d7;
+            margin-bottom: 10px;
+        }
+        .basic-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            font-size: 18px;
+            color: #0078d7;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 15px;
+        }
+        .job-item, .project-item, .edu-item {
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #eee;
+        }
+        .job-header, .project-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+        .job-title, .project-title {
+            font-weight: bold;
+            color: #444;
+        }
+        .job-date, .project-date {
+            color: #666;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-item {
+            background-color: #f0f7ff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            .job-header, .project-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>姚伟男</h1>
+            <div class="basic-info">
+                <span>37岁 (1988年3月)</span>
+                <span>|</span>
+                <span>15年工作经验</span>
+                <span>|</span>
+                <span>大专</span>
+                <span>|</span>
+                <span>现居住地：西安</span>
+                <span>|</span>
+                <span>户口：西安</span>
+            </div>
+            <div class="contact-info">
+                <span>手机：157****5213</span>
+                <span>|</span>
+                <span>E-mail：ly****ao@sina.com</span>
+                <span>|</span>
+                <span>个人博客：<a href="https://ilyon.cn" target="_blank">https://ilyon.cn</a></span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">求职意向</h2>
+            <p><strong>期望工作地区：</strong>西安</p>
+            <p><strong>期望月薪：</strong>20000 - 30000元/月</p>
+            <p><strong>期望工作性质：</strong>全职</p>
+            <p><strong>期望从事职业：</strong>Java</p>
+            <p><strong>期望从事行业：</strong>计算机软件，互联网</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">专业技能</h2>
+            <div class="skills">
+                <div class="skill-item">Java基础编程</div>
+                <div class="skill-item">Java EE</div>
+                <div class="skill-item">SpringMVC</div>
+                <div class="skill-item">Hibernate</div>
+                <div class="skill-item">jQuery</div>
+                <div class="skill-item">ExtJS</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Django</div>
+                <div class="skill-item">MySQL</div>
+                <div class="skill-item">SQL Server</div>
+                <div class="skill-item">Oracle</div>
+                <div class="skill-item">JBoss</div>
+                <div class="skill-item">Tomcat</div>
+                <div class="skill-item">Linux</div>
+                <div class="skill-item">Nginx</div>
+                <div class="skill-item">OpenStack</div>
+                <div class="skill-item">微信公众号</div>
+                <div class="skill-item">微信小程序</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">工作经历</h2>
+            <div class="job-item">
+                <div class="job-header">
+                    <div class="job-title">中软国际 - 中高级Java</div>
+                    <div class="job-date">2017.03 - 至今</div>
+                </div>
+                <div class="job-salary">10001-15000元/月</div>
+                <div class="job-desc">系统编码，单元测试，文档完成</div>
+            </div>
+            
+            <div class="job-item">
+                <div class="job-header">
+                    <div class="job-title">苏州瑞鹏信息技术有限公司 - Java软件工程师</div>
+                    <div class="job-date">2015.09 - 2017.03</div>
+                </div>
+                <div class="job-salary">10001-15000元/月</div>
+                <div class="job-desc">主要负责Java web程序开发和微信接口开发，测试环境维护，beta环境软件维护、新版本发布，线上环境软件维护、新版本发布以及协助测试，开发人员解决不同环境中遇见的相关问题</div>
+            </div>
+            
+            <div class="job-item">
+                <div class="job-header">
+                    <div class="job-title">苏州华冠科技公司 - 高级Java开发工程师</div>
+                    <div class="job-date">2012.06 - 2015.09</div>
+                </div>
+                <div class="job-salary">6001-8000元/月</div>
+                <div class="job-desc">系统设计及代码完成</div>
+            </div>
+            
+            <div class="job-item">
+                <div class="job-header">
+                    <div class="job-title">陕西中石地质科技公司 - Java开发工程师</div>
+                    <div class="job-date">2010.11 - 2012.05</div>
+                </div>
+                <div class="job-salary">1000-2000元/月</div>
+                <div class="job-desc">负责系统的编码</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">项目经历</h2>
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">流量推广系统</div>
+                    <div class="project-date">2016.10 - 2016.12</div>
+                </div>
+                <div class="project-desc">该项目为后台程序，主要根据用户流量使用情况以及流量包的分析，按照既定规则生成推荐订购流量短息，系统自动分发准备好的短信，并将回复订购的用户记录，进行预定推荐的流量包</div>
+            </div>
+            
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">月光宝盒</div>
+                    <div class="project-date">2016.09 - 2017.03</div>
+                </div>
+                <div class="project-desc">系统对第三方内容信息进行再次分类推广，主要以手机展示为主，前期考虑为运营商拉动流量消耗，从而促进流量销售，后期主要针对用户访问信息分析，得出用户喜好，从而更加精确的推送内容，促进前期目标的实现，再考虑更多运营模式</div>
+            </div>
+            
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">流量红包系统</div>
+                    <div class="project-date">2016.08 - 2016.11</div>
+                </div>
+                <div class="project-desc">流量红包类似于微信红包，主要运行在微信浏览器，用户先进行流量红包购买，购买成功之后，可以将购买好的流量红包发送给好友或者微信聊天群，其他微信好友可以领取，领取完成之后可以将流量兑换到指定手机号码，也可以赠送该红包给其他用户</div>
+            </div>
+            
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">新企业号平台</div>
+                    <div class="project-date">2015.09 - 2017.03</div>
+                </div>
+                <div class="project-desc">该平台为微信第三方开放平台再次开发，针对公众号提供微网站，微信内容管理，微会员卡，微信小游戏以及微信开发的接口进行开发，增强公众号的运营和推广能力；系统分为多个版本，供不同环境使用。</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">教育经历</h2>
+            <div class="edu-item">
+                <p><strong>陕西国防工业职业技术学院</strong> | 计算机软件 | 大专 | 2008.09 - 2011.07</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">证书与语言能力</h2>
+            <p><strong>证书：</strong>通用英语中级 (2010.03)</p>
+            <p><strong>英语：</strong>读写能力 一般 | 听说能力 一般</p>
+        </div>
+    </div>
+</body>
+</html>
