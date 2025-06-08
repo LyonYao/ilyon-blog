@@ -7,7 +7,7 @@ import base64
 def lambda_handler(event, context):
     # EC2 内部链接地址
     ec2_url = "http://ip-172-31-5-123.ap-east-1.compute.internal"  # 替换为你的EC2内部链接 45612
-    print(event)
+    #print(event)
     # 从API Gateway事件中提取信息
     http_method = event.get('httpMethod', 'GET')
     path = event.get('path', '')
