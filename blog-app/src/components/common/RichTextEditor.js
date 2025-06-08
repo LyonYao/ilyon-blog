@@ -6,7 +6,7 @@ const RichTextEditor = ({ value, onChange }) => {
   return (
     <div className="rich-text-editor">
       <Editor
-        apiKey="9ysnw99tooyedazr5f2zuhk6ehjkjvso21z41qk0sb2kzunw"
+        apiKey="0jpjvcikpobaao99ynw4aak9lasfhv74rg3kvu30w44f7qmw"
         value={value}
         init={{
           height: 400,
