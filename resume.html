@@ -26,22 +26,22 @@
             border-radius: 5px;
         }
         .header {
-            text-align: center;
+            text-align: left;
             margin-bottom: 30px;
             border-bottom: 2px solid #0078d7;
-            padding-bottom: 20px;
+            padding-bottom: 10px;
         }
         .header h1 {
             font-size: 28px;
             color: #0078d7;
             margin-bottom: 10px;
         }
-        .basic-info {
+        .basic-info,.contact-info  {
             display: flex;
-            justify-content: center;
+            justify-content:end;
             flex-wrap: wrap;
             gap: 15px;
-            margin-bottom: 10px;
+            /* margin-bottom: 10px; */
         }
         div.section  p{
             margin: 5px 0;
@@ -190,10 +190,20 @@
             <h2 class="section-title">工作经历</h2>
             <div class="job-item">
                 <div class="job-header">
-                    <div class="job-title">中软国际 - 中高级Java</div>
-                    <div class="job-date">2017.03 - 至今</div>
+                    <div class="job-title">汇丰中国西安分公司 - Tech Leader</div>
+                    <div class="job-date">2022.07 - </div>
                 </div>
-                <div class="job-desc">系统编码，单元测试，文档完成</div>
+                <div class="job-desc">已有系统维护，升级，重构\迁移, 生产环境问题处理相关support
+                    <br/>新功能设计，编码，单元测试，代码review, 文档完成，生产环境发布</div>
+            </div>
+            <div class="job-item">
+                <div class="job-header">
+                    <div class="job-title">中软国际 - 高级Java</div>
+                    <div class="job-date">2017.03 - 2022.07</div>
+                </div>
+                <div class="job-desc">已有系统维护，升级，迁移, 生产环境问题处理相关support
+
+                    <br/>新功能设计，编码，单元测试，文档完成，生产环境发布</div>
             </div>
             
             <div class="job-item">
@@ -209,7 +219,7 @@
                     <div class="job-title">苏州华冠科技公司 - 高级Java开发工程师</div>
                     <div class="job-date">2012.06 - 2015.09</div>
                 </div>
-                <div class="job-desc">系统设计及代码完成</div>
+                <div class="job-desc">负责系统设计及代码完成</div>
             </div>
             
             <div class="job-item">
@@ -225,18 +235,31 @@
             <h2 class="section-title">项目经历</h2>
             <div class="project-item">
                 <div class="project-header">
-                    <div class="project-title">流量推广系统</div>
-                    <div class="project-date">2016.10 - 2016.12</div>
+                    <div class="project-title">HASE 系统Support</div>
+                    <div class="project-date">2016.10 - </div>
                 </div>
-                <div class="project-desc">该项目为后台程序，主要根据用户流量使用情况以及流量包的分析，按照既定规则生成推荐订购流量短息，系统自动分发准备好的短信，并将回复订购的用户记录，进行预定推荐的流量包</div>
+                <div class="project-desc">
+                    1.系统support，prod问题处理及fix，系统升级，重构，迁移等工作。 
+                    2.系统是运行若干年的系统，目前核心功能已经迁移到AWS云上，使用AWS ECS 进行容器化部署，使用AWS ECR(Doris) 进行镜像存储，使用AWS CloudWatch 进行监控，使用AWS IAM 进行权限控制，使用AWS S3/EFS/RDS 进行数据存储。<br/>
+                    3.系统新功能设计开发，测试，主要使用Java编程语言，SpringBoot框架，Mybatis框架，PostgreSQL数据库，Docker容器化部署。<br/>
+                    4.系统的监控和日志分析，使用AWS CloudWatch进行监控，使用Splunk进行日志分析，使用AppDynamics进行性能监控。<br/>
+                    5.系统的安全性和可靠性，使用AWS IAM 最小化权限控制，数据加密，传输加密，存储加密。<br/>
+                    6.系统的性能优化，监控生产环境，分析性能问题。定期主要功能performance testing 并按照审计要求完成文档， 预防生产事故。<br/>
+                </div>
             </div>
-            
-            <div class="project-item">
+             <div class="project-item">
                 <div class="project-header">
                     <div class="project-title">月光宝盒</div>
                     <div class="project-date">2016.09 - 2017.03</div>
                 </div>
                 <div class="project-desc">系统对第三方内容信息进行再次分类推广，主要以手机展示为主，前期考虑为运营商拉动流量消耗，从而促进流量销售，后期主要针对用户访问信息分析，得出用户喜好，从而更加精确的推送内容，促进前期目标的实现，再考虑更多运营模式</div>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">流量推广系统</div>
+                    <div class="project-date">2016.10 - 2016.12</div>
+                </div>
+                <div class="project-desc">该项目为后台程序，主要根据用户流量使用情况以及流量包的分析，按照既定规则生成推荐订购流量短息，系统自动分发准备好的短信，并将回复订购的用户记录，进行预定推荐的流量包</div>
             </div>
             
             <div class="project-item">
@@ -254,6 +277,71 @@
                 </div>
                 <div class="project-desc">该平台为微信第三方开放平台再次开发，针对公众号提供微网站，微信内容管理，微会员卡，微信小游戏以及微信开发的接口进行开发，增强公众号的运营和推广能力；系统分为多个版本，供不同环境使用。</div>
             </div>
+
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">Cloudmax </div>
+                    <div class="project-date">2014.08 - 2016.09</div>
+                </div>
+                <div class="project-desc">裸机部署openstack工具软件，并对重要服务监测测，硬件信息监测。负责管理系统前后端开发，使用Extjs + python django + MySQL 设计，开发，测试。完成节点机器OpenStack角色分化，调度Puppet/Chef完成相关组件，自动化加入OpenStack Cloud  </div>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">Agile Aamaxgs Support Service</div>
+                    <div class="project-date">2014.05 - 2014.07</div>
+                </div>
+                <div class="project-desc">
+                    AASS是华冠科技公司Agile Team使用的一个Oracle Agile系统bug提交及组内服务人员服务追踪的管理系统，提供了issue的流程管理，简单报表生成，服务周期通知，文档生成等功能。
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">PICC 升级</div>
+                    <div class="project-date">2013.12 - 2014.06</div>
+                </div>
+                <div class="project-desc">
+                    PICC是苏州中国人寿保险，保单提交，审核，审批，生成文档的一个在线管理系统。采用spring mvc+hibernate+easyUI完成，在一期完成之后进行了bootstrap ui的升级。
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">AutoSuite2.0</div>
+                    <div class="project-date">2013.03 - 2013.11</div>
+                </div>
+                <div class="project-desc">
+                    AutoSuite是Rockwell使用在汽车生产行业，用来将ERP系统中的Bom信息通过EIG转化成汽车生产线能够自动执行的AS内部指令，由AS将ERP系统中的Bom自动化分配给生产线，执行生产，并将生产结果反馈给AutoSuite系统进行指令监控的自动化集成系统。
+                    系统为企业级应用，采用分布式架构，主要采用Java EE 开发，内嵌支持脚本语言，数据库为Mycrosoft SQL Server.
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">Production Performance Manager</div>
+                    <div class="project-date">2012.06 - 2013.03</div>
+                </div>
+                <div class="project-desc">
+                    Production Performance Manager是Rockwell自动化生产线上的一套数据采集、加工、呈现的综合性系统。首先将生产线上的数据采集起来，经过处理运算，计算出生产线的生产效率，通过图表的形式展现给管理者来查看。能够让生产者及时从整体上把握生产的进度，发现生产中的问题及时修改，提高生产效率。
+                    系统为企业级应用，采用分布式架构，主要采用Java EE 开发，内嵌支持脚本语言，数据库为Mycrosoft SQL Server.
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">Ctravel旅途平台后台管理系统</div>
+                    <div class="project-date">2011.10 - 2011.12</div>
+                </div>
+                <div class="project-desc">
+                    该系统采用spring mvc+hibernate+extjs4开发，用于管理旅游平台前台信息，主要包含系统管理、会员管理、用户管理、通知管理、模板管理、应用管理等功能。
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-title">安全环保</div>
+                    <div class="project-date">2010.12 - 2011.07</div>
+                </div>
+                <div class="project-desc">
+                    安全环保项目是长庆油田为防止重大事故的发生而着手开发的一套适时在线监控系统，系统包含了正常数据的显示、异常数据的预警、报警，各个地区天气预报的在线监控，网络状态的监控，GPRS监控等内容。所用技术：flex3.0+spring+struts+ajax+oracle 完成
+                </div>
+            </div>
+
         </div>
 
         <div class="section">
